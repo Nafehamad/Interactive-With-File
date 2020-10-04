@@ -1,0 +1,16 @@
+{
+  "name": "interactivewithfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console-table-printer": "^2.4.12",
+    "console.table": "^0.10.0"
+  }
+}
