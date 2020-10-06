@@ -9,7 +9,7 @@ const rl = readline.createInterface({ //creating an instance of readline
 });
 
 rl.question(" Enter file Path please: ", function(filePath) {
-    if(filePath.match(/.json$/)) { // to ensure that the file is json
+    if(filePath.match(/.[.]json$/)) { // to ensure that the file is json
     let rawdata = fs.readFileSync(filePath);
     let obj = JSON.parse(rawdata);
     const cTable = require('console.table');
