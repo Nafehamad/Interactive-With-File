@@ -13,8 +13,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+   "bugs": {
+    "url": "https://github.com/Nafehamad/Interactive-With-File/issues"
+  },
   "dependencies": {
     "console-table-printer": "^2.4.12",
     "console.table": "^0.10.0"
-  }
+  },
+  "homepage": "https://github.com/Nafehamad/Interactive-With-File#readme"
 }
